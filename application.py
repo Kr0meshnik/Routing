@@ -7,5 +7,9 @@ app = Flask('__main__')
 def index():
     return render_template('map.html')
 
+@app.route('/tracker_pick')
+def pick():
+    return render_template('')
+
 if __name__ == '__main__':
     app.run()
