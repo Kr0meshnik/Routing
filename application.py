@@ -9,7 +9,7 @@ def index():
 
 @app.route('/tracker_pick')
 def pick():
-    return render_template('')
+    return render_template('tracker_pick.html')
 
 if __name__ == '__main__':
     app.run()
